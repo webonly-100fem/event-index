@@ -127,6 +127,11 @@ nav a:hover {
 
 /* 開催概要の項目名 */
 .event-info-label {
+  font-weight: normal;
+}
+
+/* 開催概要の内容 */
+.event-info-item > span:last-child {
   font-weight: bold;
 }
 
