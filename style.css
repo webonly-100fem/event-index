@@ -119,7 +119,18 @@ nav a:hover {
 
 /* サークル申込受付状況 */
 .application-open {
-  margin-left: 12px;       /* 締切日の後ろに余白をつける */
-  color: #cc3333;          /* 文字色を赤にする */
-  font-weight: bold;       /* 太字にする */
+  margin-left: 12px;
+  color: #cc3333;
+  font-weight: bold;
+}
+
+/* 開催概要の項目間隔 */
+.event-info p {
+  margin: 6px 0;
+}
+
+/* 開催概要のリスト */
+.event-info ul {
+  margin-top: 0;
+  margin-bottom: 6px;
 }
