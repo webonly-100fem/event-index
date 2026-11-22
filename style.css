@@ -154,3 +154,9 @@ nav a:hover {
   text-align: right;
   padding-right: 8px;
 }
+
+/* イベントロゴ */
+.site-logo {
+  width: 90px;
+  height: auto;
+}
