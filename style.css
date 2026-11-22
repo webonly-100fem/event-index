@@ -161,13 +161,13 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 0px;
 }
 
 /* イベントロゴ */
 .site-logo {
   position: absolute;
-  left: 8px;
+  left: 0px;
   width:350px;
   height: auto;
   margin: 0;
