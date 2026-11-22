@@ -81,3 +81,28 @@ nav a:hover {
     padding: 0 16px;
   }
 }
+
+/* 質問と回答のまとまり */
+.qa-item {
+  margin: 32px 0;
+}
+
+/* 質問番号 */
+.qa-number {
+  margin: 0 0 6px;
+  font-weight: bold;
+  color: #666666;
+}
+
+/* 質問本文 */
+.qa-question {
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+  font-weight: bold;
+}
+
+/* 回答 */
+.qa-answer {
+  padding-top: 12px;
+}
