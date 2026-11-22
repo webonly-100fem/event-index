@@ -155,11 +155,23 @@ nav a:hover {
   padding-right: 8px;
 }
 
+/* ヘッダーのロゴと文字を横並びにする */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
 /* イベントロゴ */
 .site-logo {
   width: 90px;
   height: auto;
-  margin-bottom: 12px;
-  display: block;
-  margin-left: 0;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+/* ヘッダーの文字部分 */
+.header-text {
+  text-align: center;
 }
