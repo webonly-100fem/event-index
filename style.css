@@ -145,7 +145,7 @@ nav a:hover {
 /* 参加費用の各項目 */
 .event-fee {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 120px 1fr;
 }
 
 /* 参加区分 */
