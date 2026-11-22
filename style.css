@@ -115,3 +115,11 @@ nav a:hover {
   padding-top: 12px;
   line-height: 1.8;
 }
+
+
+/* サークル申込受付状況 */
+.application-open {
+  margin-left: 12px;       /* 締切日の後ろに余白をつける */
+  color: #cc3333;          /* 文字色を赤にする */
+  font-weight: bold;       /* 太字にする */
+}
