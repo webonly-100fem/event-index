@@ -85,6 +85,10 @@ nav a:hover {
 /* 質問と回答のまとまり */
 .qa-item {
   margin: 32px 0;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  background-color: #ffffff;
 }
 
 /* 質問番号 */
