@@ -100,7 +100,8 @@ nav a:hover {
   margin: 0;
   padding-bottom: 12px;
   border-bottom: 1px solid #cccccc;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.1em;
   color: #333333;
   line-height: 1.5;
 }
