@@ -116,7 +116,6 @@ nav a:hover {
   line-height: 1.8;
 }
 
-
 /* サークル申込受付状況 */
 .application-open {
   margin-left: 12px;
@@ -126,11 +125,13 @@ nav a:hover {
 
 /* 開催概要の項目間隔 */
 .event-info p {
-  margin: 6px 0;
+  margin: 2px 0;
+  line-height: 1.5;
 }
 
 /* 開催概要のリスト */
 .event-info ul {
   margin-top: 0;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
+  line-height: 1.5;
 }
