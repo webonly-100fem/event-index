@@ -92,6 +92,7 @@ nav a:hover {
   margin: 0;
   font-weight: normal;
   color: #333333;
+  line-height: 1.5;
 }
 
 /* 質問本文 */
@@ -101,9 +102,11 @@ nav a:hover {
   border-bottom: 1px solid #cccccc;
   font-weight: normal;
   color: #333333;
+  line-height: 1.5;
 }
 
 /* 回答 */
 .qa-answer {
   padding-top: 12px;
+  line-height: 1.8;
 }
