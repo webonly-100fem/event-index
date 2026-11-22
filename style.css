@@ -123,15 +123,15 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* 開催概要の項目間隔 */
-.event-info p {
+/* 開催概要の項目 */
+.event-info-item {
   margin: 2px 0;
   line-height: 1.5;
 }
 
-/* 開催概要のリスト */
-.event-info ul {
-  margin-top: 0;
-  margin-bottom: 2px;
+/* 開催概要の参加費用リスト */
+.event-info-item ul {
+  margin: 0;
+  padding-left: 24px;
   line-height: 1.5;
 }
