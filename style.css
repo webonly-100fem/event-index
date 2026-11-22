@@ -1,0 +1,83 @@
+/* ページ全体 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.8;
+  color: #333333;
+  background-color: #f8f8f6;
+}
+
+/* ヘッダー */
+header {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* ページタイトル */
+header h1 {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+
+/* 説明文 */
+header p {
+  margin: 0;
+  color: #666666;
+}
+
+/* メインコンテンツ */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* 見出し */
+h2 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* メニュー一覧 */
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 12px 0;
+}
+
+nav a {
+  display: block;
+  padding: 14px 18px;
+  color: #333333;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+/* リンクにマウスを乗せたとき */
+nav a:hover {
+  background-color: #eeeeea;
+}
+
+/* スマートフォン向け */
+@media (max-width: 600px) {
+  header {
+    padding: 30px 16px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  main {
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+}
