@@ -170,3 +170,11 @@ nav a:hover {
   height: auto;
   margin: 0;
 }
+
+/* 注意書き */
+.disclaimer {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666666;
+}
