@@ -168,8 +168,8 @@ nav a:hover {
 .site-logo {
   position: absolute;
   left: 12px;
-  width: 250px;
-  height: auto;
+  width: auto;
+  height: 80px;
   margin: 0;
 }
 
