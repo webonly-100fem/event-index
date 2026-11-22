@@ -116,22 +116,23 @@ nav a:hover {
   line-height: 1.8;
 }
 
+/* 開催概要の項目 */
+.event-info-item {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 8px;
+  margin: 4px 0;
+  line-height: 1.6;
+}
+
+/* 開催概要の項目名 */
+.event-info-label {
+  font-weight: bold;
+}
+
 /* サークル申込受付状況 */
 .application-open {
   margin-left: 12px;
   color: #cc3333;
   font-weight: bold;
-}
-
-/* 開催概要の項目 */
-.event-info-item {
-  margin: 2px 0;
-  line-height: 1.5;
-}
-
-/* 開催概要の参加費用リスト */
-.event-info-item ul {
-  margin: 0;
-  padding-left: 24px;
-  line-height: 1.5;
 }
