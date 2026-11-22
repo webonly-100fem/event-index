@@ -190,6 +190,6 @@ nav a:hover {
 /* PC表示 */
 @media (min-width: 768px) {
   .site-logo {
-    width: 400px;
+    width: 600px;
   }
 }
