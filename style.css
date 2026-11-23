@@ -1,3 +1,7 @@
+/* ==========================
+   ページ全体
+========================== */
+
 /* ページ全体 */
 body {
   margin: 0;
@@ -7,6 +11,24 @@ body {
   color: #333333;
   background-color: #f8f8f6;
 }
+
+/* メインコンテンツ */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* 見出し */
+h2 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #cccccc;
+}
+
+
+/* ==========================
+   共通ヘッダー
+========================== */
 
 /* ヘッダー */
 header {
@@ -28,18 +50,18 @@ header p {
   color: #666666;
 }
 
-/* メインコンテンツ */
-main {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
+/* 個別ページのイベント名 */
+.event-name {
+  margin: 0 20px 8px;
+  text-align: right;
+  font-size: 0.85em;
+  color: #888888;
 }
 
-/* 見出し */
-h2 {
-  padding-bottom: 8px;
-  border-bottom: 1px solid #cccccc;
-}
+
+/* ==========================
+   メニュー
+========================== */
 
 /* メニュー一覧 */
 nav ul {
@@ -66,21 +88,10 @@ nav a:hover {
   background-color: #eeeeea;
 }
 
-/* スマートフォン向け */
-@media (max-width: 600px) {
-  header {
-    padding: 30px 16px;
-  }
 
-  header h1 {
-    font-size: 24px;
-  }
-
-  main {
-    margin: 24px auto;
-    padding: 0 16px;
-  }
-}
+/* ==========================
+   質問と回答
+========================== */
 
 /* 質問と回答のまとまり */
 .qa-item {
@@ -115,6 +126,11 @@ nav a:hover {
   padding-top: 12px;
   line-height: 1.8;
 }
+
+
+/* ==========================
+   開催概要
+========================== */
 
 /* 開催概要の項目 */
 .event-info-item {
@@ -155,6 +171,11 @@ nav a:hover {
   padding-right: 8px;
 }
 
+
+/* ==========================
+   トップページ
+========================== */
+
 /* ロゴ付きヘッダー */
 .site-header {
   display: flex;
@@ -179,12 +200,25 @@ nav a:hover {
   color: #666666;
 }
 
-/* 個別ページのイベント名 */
-.event-name {
-  margin: 0 20px 8px;
-  text-align: right;
-  font-size: 0.85em;
-  color: #888888;
+
+/* ==========================
+   画面サイズ別の設定
+========================== */
+
+/* スマートフォン向け */
+@media (max-width: 600px) {
+  header {
+    padding: 30px 16px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  main {
+    margin: 24px auto;
+    padding: 0 16px;
+  }
 }
 
 /* PC表示 */
